@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repository increment="1449740371000" name="Local" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="osgi.annotation"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="6.0.1.201503162037"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="21f9c340932af9ec03d4cc8b0e77054ce25888d39c32c85f9e86bdb7ad8070e1"/>
+      <attribute name="url" value="osgi.annotation/osgi.annotation-6.0.1.jar"/>
+      <attribute name="size" type="Long" value="14744"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="osgi.annotation"/>
+      <attribute name="bundle-version" type="Version" value="6.0.1.201503162037"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="osgi.annotation"/>
+      <attribute name="bundle-version" type="Version" value="6.0.1.201503162037"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="org.osgi.annotation.versioning"/>
+      <attribute name="version" type="Version" value="1.0.0"/>
+      <attribute name="bundle-symbolic-name" value="osgi.annotation"/>
+      <attribute name="bundle-version" type="Version" value="6.0.1.201503162037"/>
+    </capability>
+    <requirement namespace="osgi.compile.time.only">
+      <directive name="filter" value="(&amp;(must.not.resolve=*)(!(must.not.resolve=*)))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.5))"/>
+    </requirement>
+  </resource>
+</repository>

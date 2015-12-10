@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+/Users/richard/play/eclipse/workspace2/.metadata/.plugins/org.eclipse.jdt.core
+3782697048.index
+3425408841.index
+2097572712.index
+4286642533.index

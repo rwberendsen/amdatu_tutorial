@@ -1,0 +1,7 @@
+-buildpath:  \
+	osgi.annotation;version=6.0.1,\
+	org.amdatu.web.rest.jaxrs,\
+	../cnf/plugins/org.apache.felix.dependencymanager.annotation.jar;version=file,\
+	org.apache.felix.dependencymanager;version='[4,5)',\
+	osgi.core
+Bundle-Version: 0.0.0.${tstamp}
